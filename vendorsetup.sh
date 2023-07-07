@@ -1,2 +1,2 @@
-add_lunch_combo omni_v400-userdebug
-add_lunch_combo omni_v400-eng
+add_lunch_combo omni_v410
+add_lunch_combo omni_v410-eng

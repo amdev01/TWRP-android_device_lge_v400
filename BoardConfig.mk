@@ -15,14 +15,14 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8226
 TARGET_NO_BOOTLOADER := true
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/lge/v400/kernel
+TARGET_PREBUILT_KERNEL := device/lge/v410/kernel
 BOARD_CUSTOM_BOOTIMG := true
-BOARD_CUSTOM_BOOTIMG_MK := device/lge/v400/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/v410/mkbootimg.mk
 BOARD_KERNEL_CMDLINE := console=none user_debug=31 msm_rtb.filter=0x37 androidboot.hardware=e7
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_MKBOOTIMG_ARGS := --dt device/lge/v400/dt.img --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 0x00000100
+BOARD_MKBOOTIMG_ARGS := --dt device/lge/v410/dt.img --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 0x00000100
 
 # Partitions
 # TODO

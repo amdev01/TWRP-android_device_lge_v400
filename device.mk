@@ -1,7 +1,7 @@
-LOCAL_PATH := device/lge/v400
+LOCAL_PATH := device/lge/v410
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := device/lge/v400/kernel
+	LOCAL_KERNEL := device/lge/v410/kernel
 else
 	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
 endif
@@ -13,5 +13,5 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := v400
+PRODUCT_NAME := v410
 PRODUCT_BRAND := LGE
